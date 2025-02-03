@@ -1,0 +1,114 @@
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK
+$ git init
+Initialized empty Git repository in C:/Users/admin/Desktop/GIJK/.git/
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (main)
+$ git commit
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "1\321\201.png"
+        README.md
+        feature.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (main)
+$ git switch --create branch-name
+Switched to a new branch 'branch-name'
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git commint
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ cd main
+bash: cd: main: No such file or directory
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git switch main
+fatal: invalid reference: main
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git commit
+On branch branch-name
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "1\321\201.png"
+        README.md
+        feature.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git switch main
+fatal: invalid reference: main
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ cd main
+bash: cd: main: No such file or directory
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git checkout git
+error: pathspec 'git' did not match any file(s) known to git
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git checkout GIJK4
+error: pathspec 'GIJK4' did not match any file(s) known to git
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git checkout GIJK
+error: pathspec 'GIJK' did not match any file(s) known to git
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ undo
+bash: undo: command not found
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git reset
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git reset
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-name)
+$ git switch --create branch-feature-branch
+Switched to a new branch 'branch-feature-branch'
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ git switch feature-branch
+fatal: invalid reference: feature-branch
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ git switch main
+fatal: invalid reference: main
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ git switch feature-branch main
+fatal: only one reference expected
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ git github
+git: 'github' is not a git command. See 'git --help'.
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ ^C
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$ ^C
+
+admin@HOME-PC MINGW64 ~/Desktop/GIJK (branch-feature-branch)
+$
